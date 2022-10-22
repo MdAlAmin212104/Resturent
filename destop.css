@@ -1,0 +1,124 @@
+/* coloum for destop */
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+food-desc,h6{
+    margin:1px 0;
+    
+    
+}
+.food-menu h6{
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-tag{
+    position: relative;
+}
+
+.navber-menu{
+    float: right;
+    flex-direction: row;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    
+    
+}
+.navber-menu a{
+    margin: 10px 20px;
+    background-color: transparent;
+    
+
+}
+
+.header-tag::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+.img:hover{
+    width: 60%;
+    height: auto;
+    transition: 2s;
+}
+.food-details{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid1{
+    display: flex;
+    flex-direction: row;
+
+}
+hr{
+    border: none;
+}
+.grid2{
+    display: flex;
+    flex-direction: row;
+
+}
+.destop{
+    
+    border: 5px solid white;
+    border-radius: 5px;
+    border-bottom: none;
+     
+     
+}
+.grite-img{
+    width: 300px;
+    height: 250px;
+    
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+.link-list p{
+    margin: none;
+    padding: none;
+
+}
+.social-icon{
+    width: 80px;
+    height: 70px;
+    padding: 10px;
+}
+.news-letter{
+    margin: none;
+    grid-area: none;
+    
+    
+}
+
+
+
+
+
